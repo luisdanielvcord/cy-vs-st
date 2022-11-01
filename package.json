@@ -5,7 +5,8 @@
   "main": "supertest_test.spec.js",
   "scripts": {
     "test:super": "mocha '**/*.spec.js'",
-    "test:cy": "mocha '**/*.spec.js'"
+    "test:cy": "cypress run",
+    "test:compare": "mocha '**/*.spec.js' && cypress run"
   },
   "author": "",
   "license": "ISC",
