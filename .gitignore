@@ -1,5 +1,17 @@
-# Created by https://www.toptal.com/developers/gitignore/api/node,windows,visualstudiocode
-# Edit at https://www.toptal.com/developers/gitignore?templates=node,windows,visualstudiocode
+
+# Created by https://www.toptal.com/developers/gitignore/api/windows,visualstudiocode,node,cypressio
+# Edit at https://www.toptal.com/developers/gitignore?templates=windows,visualstudiocode,node,cypressio
+
+### CypressIO ###
+# gitignore template for the CypressIO, browser test framework
+# website: https://www.cypress.io/
+
+cypress/results/*
+cypress/reports/*
+cypress/screenshots/*
+cypress/videos/*
+cypress/integration/examples/*
+
 
 ### Node ###
 # Logs
@@ -160,6 +172,12 @@ dist
 .history
 .ionide
 
+# Support for Project snippet scope
+.vscode/*.code-snippets
+
+# Ignore code-workspaces
+*.code-workspace
+
 ### Windows ###
 # Windows thumbnail cache files
 Thumbs.db
@@ -186,4 +204,6 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-# End of https://www.toptal.com/developers/gitignore/api/node,windows,visualstudiocode
+# End of https://www.toptal.com/developers/gitignore/api/windows,visualstudiocode,node,cypressio
+
+api_data.json
