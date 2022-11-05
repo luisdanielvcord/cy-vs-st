@@ -1,6 +1,6 @@
 /// <reference types="cypress" />
 
-import data from '../../api_data.json'
+const data = require('../../api_data.json')
 
 describe('test suite', () => {
 
@@ -56,3 +56,9 @@ describe('test suite', () => {
         })
     })
 })
+
+//1268 ST same amount of request in 1 spec
+//1680 CY same amount of request in 1 spec (-32.5% difference)
+
+//1271 ST same amount of request in 2 specs
+//1574 CY same amount of request in 2 spces (-23.8% difference)

@@ -6,7 +6,6 @@ describe("test suite", () => {
 
     var reqToken
     var sessionId
-    var test
 
     before('auth', async () => {
 
